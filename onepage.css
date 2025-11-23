@@ -1,0 +1,247 @@
+.dropdown button{
+    padding: 5px 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(247, 248, 248);
+    margin-top: 1%;
+    border: none;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 7px 10px;
+    font-size: large;
+
+}
+.dropdown .contacts{
+   background-color: rgb(246, 247, 248);
+   position: absolute;
+   min-width: 150px;
+   box-shadow: 2px 2px 5px ;
+   text-align: center;
+   display: none;
+}
+.dropdown:hover .contacts{
+    background-color:rgb(240, 241, 243) ;
+    display: block;
+   
+}
+.dropdown:hover button{
+    background-color: rgb(249, 248, 248);
+}
+.dropdown a:hover{
+    background-color:rgb(219, 222, 222) ;
+}
+
+.header{
+    width: 100%;
+    height: 7vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+#name{
+    margin: 0;
+    margin-left: 2%;
+    padding: none;
+    margin-bottom: 0;
+}
+.dropdown{
+ margin-right:3% ;
+}
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.herobox{
+    height: 80vh;
+    width: 160vh;
+   box-shadow: 2px 2px 5px ;
+    margin: auto;
+    margin-top: 3vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+   
+    
+
+  
+}
+#icons{
+    display: flex;
+  
+  z-index: 2;
+   margin-right:5vh ;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   max-height: fit-content;
+   margin-top: 17vh;
+   border-radius: 20px;
+   margin-left: 10vh;
+}
+#mypic{
+    border-radius: 20px;
+   
+    overflow: hidden;
+    padding: 0;
+}
+#heading{
+   
+   font-size:3.1em ;
+   max-height: fit-content;
+   margin-top:4vh ;
+   padding: none;
+   margin-left: 4vh;
+   font-family:sans-serif ;
+   color: rgb(0, 0, 0);
+}
+.cicons{
+    display: flex;
+    padding-top:5px;
+    gap: 30px;
+    text-shadow: 2px 2px 5px;
+    
+}
+.herosec{
+    background-color: hsl(188, 8%, 21%);
+}
+body{
+    margin: 0;
+}
+
+.mbox1{
+  
+   width: 160vh;
+   height: 80vh;
+   margin: auto;
+   margin-top: 11vh;
+   margin-bottom: 11vh;
+   border-radius: 20px;
+   background-color: rgb(245, 245, 245);
+   box-shadow: 2px 2px 3px;
+}
+
+.bbox{
+    width: 140vh;
+    height: 30vh;
+ position: relative;
+ top: 2.5vh;
+  
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px;
+    background-color: rgb(46, 159, 176)
+
+}
+.bbox p{
+    font-size: 2em;
+   margin-left: 12vh;
+   margin-top: 10vh;
+   padding-top: 5%;
+   font-family: sans-serif;
+ color: rgb(241, 243, 245);
+ font-weight: bold;
+}
+.text1{
+    margin-left: 13vh;
+    margin-top: 10vh;
+   
+    max-width: 25vh;
+}
+#sbox1{
+    width: 50vh;
+    height: 15vh;
+    border: 2px solid;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    background-image: url(development.png) ;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgb(119, 172, 218);
+
+}
+#sbox2{
+ width: 50vh;
+    height: 15vh;
+    border: 2px solid;
+      border-radius: 20px;
+      background-image: url(deployment.png);
+       background-size: 100px;
+    background-repeat: no-repeat;
+     text-align: center;
+    font-size: 1.4em;
+    background-color: rgb(218, 119, 119);
+
+    
+}
+#sbox3{
+ width: 50vh;
+    height: 15vh;
+    border: 2px solid;
+    margin-bottom: 2vh;
+      border-radius: 20px;
+      background-image: url(ui.png);
+  
+       background-size: 100px;
+    background-repeat: no-repeat;
+     text-align: center;
+    font-size: 1.4em;
+    background-color:rgb(218, 119, 119) ;
+
+    
+}
+
+#sbox4{
+width: 50vh;
+    height: 15vh;
+    border: 2px solid;
+      border-radius: 20px;
+      background-image: url(maintenance.png);
+       background-size: 100px;
+    background-repeat: no-repeat;
+     text-align: center;
+    font-size: 1.4em;
+     background-color:rgb(119, 172, 218);
+ 
+}
+.sboxes{
+    max-height: 20vh;
+   position: relative;
+   bottom: 18%;
+   left:28%;
+   display: flex;
+  gap: 2vh;
+
+ 
+}
+.sboxesa{
+    display: row;
+   
+    justify-content: end;
+    
+}
+.sboxesb{
+    display: row;
+    justify-content: end;
+}
+.quasec{
+    background-image: url(odin.svg);
+}
+body{
+    background-color: #242424;
+}
+
+
